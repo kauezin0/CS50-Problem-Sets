@@ -26,7 +26,7 @@ Exercita loops aninhados e padrões de saída formatada.
 
 Arquivo: mario.c
 
-# Como rodar os programas em C
+# ⚠️ Como rodar os programas em C
 
 Estes programas utilizam a biblioteca CS50 (cs50.h). Para compilar e executar:
 
