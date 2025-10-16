@@ -1,4 +1,4 @@
-# CS50 – Problem Sets Iniciais
+# 🏅 CS50 – Problem Sets Iniciais
 
 Este repositório contém os exercícios iniciais do curso CS50 – Introduction to Computer Science. Os projetos foram desenvolvidos em C e Scratch, com foco em lógica de programação, estruturas de controle e resolução de problemas.
 
