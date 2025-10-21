@@ -26,6 +26,14 @@ Exercita loops aninhados e padrões de saída formatada.
 
 Arquivo: mario.c
 
+# 4. Scrabble
+
+Programa em C que simula o jogo Scrabble, atribuindo pontuações às palavras digitadas pelos jogadores com base nas letras utilizadas.
+
+Exercita o uso de arrays, loops, condicionais, funções e manipulação de strings.
+
+Arquivo: scrabble.c
+
 # ⚠️ Como rodar os programas em C
 
 Estes programas utilizam a biblioteca CS50 (cs50.h). Para compilar e executar:
