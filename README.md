@@ -4,7 +4,13 @@ Este repositório contém os exercícios iniciais do curso CS50 – Introduction
 
 # Exercícios
 
-# 1. Cash.c
+# 1. Scratch
+
+Introdução à lógica de programação com sequências de comandos, loops e condições.
+
+Arquivo: Trying to Get to Julia's House_Scratch.sb3
+
+# 2. Cash.c
 
 Programa em C para calcular o troco mínimo.
 
@@ -12,19 +18,13 @@ Pratica loops, condicionais e manipulação de variáveis.
 
 Arquivo: cash.c
 
-# 2. MarioLess
+# 3. MarioLess
 
 Construção de pirâmides no terminal.
 
 Exercita loops aninhados e padrões de saída formatada.
 
 Arquivo: mario.c
-
-# 3. Scratch
-
-Introdução à lógica de programação com sequências de comandos, loops e condições.
-
-Arquivo: Trying to Get to Julia's House_Scratch.sb3
 
 # 4. Scrabble
 
