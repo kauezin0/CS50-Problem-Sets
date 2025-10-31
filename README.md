@@ -3,14 +3,8 @@
 Este repositório contém os exercícios iniciais do curso CS50 – Introduction to Computer Science. Os projetos foram desenvolvidos em C e Scratch, com foco em lógica de programação, estruturas de controle e resolução de problemas.
 
 # Exercícios
-   
-# 1. Scratch
 
-Introdução à lógica de programação com sequências de comandos, loops e condições.
-
-Arquivo: Trying to Get to Julia's House_Scratch.sb3
-
-# 2. Cash.c
+# 1. Cash.c
 
 Programa em C para calcular o troco mínimo.
 
@@ -18,13 +12,19 @@ Pratica loops, condicionais e manipulação de variáveis.
 
 Arquivo: cash.c
 
-# 3. MarioLess
+# 2. MarioLess
 
 Construção de pirâmides no terminal.
 
 Exercita loops aninhados e padrões de saída formatada.
 
 Arquivo: mario.c
+
+# 3. Scratch
+
+Introdução à lógica de programação com sequências de comandos, loops e condições.
+
+Arquivo: Trying to Get to Julia's House_Scratch.sb3
 
 # 4. Scrabble
 
@@ -33,6 +33,15 @@ Programa em C que simula o jogo Scrabble, atribuindo pontuações às palavras d
 Exercita o uso de arrays, loops, condicionais, funções e manipulação de strings.
 
 Arquivo: scrabble.c
+
+# 5. Readability
+
+Programa em C que calcula o nível de leitura de um texto usando o índice Coleman-Liau.
+Analisa o número de letras, palavras e frases para estimar o grau escolar necessário para compreender o texto.
+
+Exercita manipulação de strings, contagem de caracteres, expressões matemáticas e estruturas condicionais.
+
+Arquivo: readability.c
 
 # ⚠️ Como rodar os programas em C
 
