@@ -43,6 +43,15 @@ Exercita manipulação de strings, contagem de caracteres, expressões matemáti
 
 Arquivo: readability.c
 
+# 6. Caesar
+
+Programa em C que implementa a cifra de César, um método clássico de criptografia.
+O usuário fornece uma chave numérica, e o programa aplica um deslocamento nas letras do texto, gerando a mensagem criptografada.
+
+Exercita manipulação de strings, funções, conversão de caracteres, loops, argumentos de linha de comando e criptografia básica.
+
+Arquivo: caesar.c
+
 # ⚠️ Como rodar os programas em C
 
 Estes programas utilizam a biblioteca CS50 (cs50.h). Para compilar e executar:
