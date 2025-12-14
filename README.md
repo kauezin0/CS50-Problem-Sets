@@ -52,6 +52,15 @@ Exercita manipulação de strings, funções, conversão de caracteres, loops, a
 
 Arquivo: caesar.c
 
+# 7. Runoff
+
+Programa em C que simula um sistema de votação por turno instantâneo (runoff).
+Os eleitores classificam os candidatos por preferência, e o programa elimina o candidato com menos votos a cada rodada, redistribuindo os votos até que haja um vencedor.
+
+Exercita arrays, matrizes, loops aninhados, estruturas condicionais, funções, comparação de strings e lógica de algoritmos.
+
+Arquivo: runoff.c
+
 # ⚠️ Como rodar os programas em C
 
 Estes programas utilizam a biblioteca CS50 (cs50.h). Para compilar e executar:
