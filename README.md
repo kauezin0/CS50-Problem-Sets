@@ -1,6 +1,7 @@
 # 🏅 CS50 – Problem Sets Iniciais
 
-Este repositório contém os exercícios iniciais do curso CS50 – Introduction to Computer Science. Os projetos foram desenvolvidos em C e Scratch, com foco em lógica de programação, estruturas de controle e resolução de problemas.
+Este repositório contém ALGUNS dos exercícios do curso CS50
+(Obs.: Na maioria dos exercícios, foi utilizado o inglês nos comentários e na descrição do README, para que os avaliadores do CS50 consigam entender.) 
 
 # Exercícios
 
@@ -60,6 +61,77 @@ Os eleitores classificam os candidatos por preferência, e o programa elimina o 
 Exercita arrays, matrizes, loops aninhados, estruturas condicionais, funções, comparação de strings e lógica de algoritmos.
 
 Arquivo: runoff.c
+
+# 8. Speller
+
+Programa em C que verifica a ortografia de palavras a partir de um dicionário.
+Neste exercício, foi implementada apenas a parte solicitada pelo CS50, focando na criação das funções responsáveis por carregar o dicionário, verificar palavras, calcular o tamanho e liberar a memória.
+
+Exercita estruturas de dados, tabelas hash, manipulação de strings, ponteiros, alocação e liberação de memória, além de análise de desempenho.
+
+Pasta: speller/
+
+# 9. Recover
+
+Programa em C que recupera arquivos de imagem (JPEG) a partir de um cartão de memória.
+Neste exercício, foi implementada apenas a parte solicitada pelo CS50, focando na leitura de blocos de dados, identificação das assinaturas de arquivos JPEG e escrita dos arquivos recuperados no disco.
+
+Exercita manipulação de arquivos, leitura binária, ponteiros, buffers, controle de fluxo e uso de estruturas básicas em C.
+
+Pasta: recover/
+
+# 10. Homepage
+
+Projeto de site pessoal desenvolvido com HTML, CSS e JavaScript, com o objetivo de praticar conceitos básicos de desenvolvimento web.
+Inclui estruturação de páginas, estilização visual e interatividade simples com o usuário.
+
+Exercita HTML semântico, CSS, JavaScript, organização de arquivos, design básico e fundamentos de front-end.
+
+Pasta: homepage/
+
+# 11. Finance
+
+Aplicação web desenvolvida com Python (Flask), SQL, HTML e CSS que simula uma plataforma de compra e venda de ações.
+Neste exercício, foi implementada apenas a parte solicitada pelo CS50, focando na lógica do backend, manipulação do banco de dados, autenticação de usuários e processamento das transações.
+
+Exercita desenvolvimento web, Flask, SQL, integração entre frontend e backend, autenticação, manipulação de dados e boas práticas de programação.
+
+Pasta: finance/
+
+# Descrição do Projeto Final
+
+Este projeto é uma aplicação web desenvolvida com Flask, Python, SQL, HTML, CSS e Bootstrap, focada em autenticação de usuários e busca de jogos de forma segura e organizada.
+
+No arquivo helpers.py, foi implementada a função login_required, responsável por proteger rotas sensíveis da aplicação, garantindo que determinadas ações só possam ser realizadas por usuários autenticados.
+O banco de dados games.db armazena informações dos jogos e dos usuários, utilizando hash de senhas para maior segurança.
+
+No app.py, são utilizados recursos essenciais do Flask, SQL e werkzeug.security. A função after_request foi implementada para impedir o cache do navegador, evitando que páginas sensíveis possam ser acessadas após o logout, aumentando a segurança da aplicação.
+
+A autenticação utiliza generate_password_hash e check_password_hash, garantindo que as senhas reais não sejam armazenadas no banco de dados.
+O frontend foi desenvolvido com Bootstrap, adotando um tema escuro com estética gamer. A página principal utiliza Flexbox para alinhamento preciso dos elementos e consultas SQL com LIKE para tornar a busca mais flexível.
+
+A página de resultados exibe capas dos jogos, horas de gameplay e nível de dificuldade. As imagens são vinculadas automaticamente aos jogos por meio de IDs do banco de dados e renderizadas com Jinja2.
+Em caso de erros, a página apology.html fornece feedback visual claro ao usuário por meio de alertas do Bootstrap.
+
+# Estrutura do Projeto
+
+app.py: Controlador principal da aplicação Flask, responsável pelas rotas, autenticação e consultas ao banco de dados.
+
+helpers.py: Funções auxiliares, incluindo o decorator login_required.
+
+games.db: Banco de dados SQLite com tabelas de usuários e jogos.
+
+static/img/: Armazena as capas dos jogos, nomeadas conforme o ID do banco de dados.
+
+templates/layout.html: Estrutura base do site (navbar e layout geral).
+
+templates/index.html: Página inicial com barra de busca e layout responsivo.
+
+templates/busca.html: Exibição dos resultados da busca com informações detalhadas dos jogos.
+
+templates/login.html & register.html: Formulários de autenticação e registro de usuários.
+
+templates/apology.html: Página de erros com mensagens amigáveis ao usuário.
 
 # ⚠️ Como rodar os programas em C
 
