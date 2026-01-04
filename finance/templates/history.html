@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ação</th>
+                <th>Quantidade</th>
+                <th>Preço Atual</th>
+                <th>Transacionado</th>
+            </tr>
+        <tbody>
+            {% for transacao in transacoes %}
+            <tr>
+                <td>{{ transacao.symbol }}</td>
+                <td>{{ transacao.shares }}</td>
+                <td>{{ transacao.price | usd }}</td>
+                <td>{{ transacao.timestamp }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

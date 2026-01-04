@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ação</th>
+                <th>Nome</th>
+                <th>Quantidade</th>
+                <th>Preço Atual</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for acao in portfolio %}
+            <tr>
+                <td>{{ acao.symbol }}</td>
+                <td>{{ acao.name }}</td>
+                <td>{{ acao.shares }}</td>
+                <td>{{ acao.price | usd }}</td>
+                <td>{{ acao.total | usd }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Dinheiro Disponível</td>
+                <td>{{ cash | usd }}</td>
+            </tr>
+            <tr>
+                <td colspan="4">TOTAL GERAL</td>
+                <td>**{{ total | usd }}**</td>
+            </tr>
+        </tfoot>
+    </table>
+{% endblock %}
