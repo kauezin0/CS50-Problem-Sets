@@ -1,0 +1,6 @@
+html: <a>, <p>, <div>, <title>, <head>, <h1>, <body>, <img>, <h5>, <script>
+css (selectors): .conteiner-do-macaco, body, #titulo-macaco, .titulo-index:hover, h2
+css (properties): font-weight, color, font-size, text-align, margin-top
+
+I chose JavaScript to make the card increase in size on hover. Additionally, I used Bootstrap
+to create the cards with the assistance of AI to refine the layout.
