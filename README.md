@@ -1,4 +1,4 @@
-# 🏅 CS50 – Problem Sets Iniciais
+# 🏅 CS50 – Problem Sets
 
 Este repositório contém ALGUNS dos exercícios do curso CS50
 (Obs.: Na maioria dos exercícios, foi utilizado o inglês nos comentários e na descrição do README, para que os avaliadores do CS50 consigam entender.) 
